@@ -18,6 +18,11 @@ export default {
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
+    },
+    extend: {
+      backgroundImage: {
+        'bl': "url('/src/Ellipse 10.png')",
+      }
     }
   },
   plugins: [],
